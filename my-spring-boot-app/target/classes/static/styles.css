@@ -1,0 +1,23 @@
+/* Add global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles for desktop and tablet screens */
+.button-section {
+    text-align: center;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .button-section {
+        display: block;
+        text-align: left;
+    }
+
+    #uploadButton {
+        margin-top: 10px;
+    }
+}
